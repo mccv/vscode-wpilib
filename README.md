@@ -9,13 +9,14 @@ This repository contains a fork of the [WPILib VS Code extension](https://github
 If you want to install a pre-built version of the extension without building it yourself:
 
 1. Go to the [Releases page](https://github.com/mccv/vscode-wpilib/releases)
-2. Download the `.vsix` file from the latest release (found under the "WindowsVSIX" artifact)
-3. In VS Code:
-   - Open the Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
-   - Click the `...` menu at the top of the Extensions view
-   - Select "Install from VSIX..."
+2. Download the `.vsix` file from the latest release (the vscode-wpilib-2026.1700.`version`.vsix
+artifact)
+3. Install the extension:
+   - **In Cursor or VS Code:** Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
+   - Type "Extensions: Install from VSIX..."
    - Navigate to and select the downloaded `.vsix` file
-4. Reload VS Code when prompted
+   - Alternatively, you can run: `code --install-extension path/to/extension.vsix` (or `cursor --install-extension` for Cursor)
+4. Reload the editor when prompted
 
 The standalone utilities for Mac, Linux, and Windows are also available in each release.
 
