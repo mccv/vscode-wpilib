@@ -1,6 +1,6 @@
 # VS Code WPILib
 
-[![CI](https://github.com/mccv/vscode-wpilib/actions/workflows/main.yml/badge.svg)](https://github.com/wpilibsuite/vscode-wpilib/actions/workflows/main.yml)
+[![CI](https://github.com/mccv/vscode-wpilib/actions/workflows/main.yml/badge.svg)](https://github.com/mccv/vscode-wpilib/actions/workflows/main.yml)
 
 This repository contains a fork of the [WPILib VS Code extension](https://github.com/wpilibsuite/vscode-wpilib) updated to work in Cursor.
 
